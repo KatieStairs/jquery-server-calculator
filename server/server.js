@@ -2,6 +2,7 @@ console.log('in server.js');
 
 const express = require('express');
 const bodyParser = require('body-parser');
+const e = require('express');
 const app = express();
 const PORT = 5000;
 
@@ -34,6 +35,18 @@ function calculateEquation(equationFromInput) {
         total = numOne + numTwo;
         console.log('in total', total);
     } 
+    if (equationFromInput.operator === '-'){
+        total = numOne - numTwo;
+        console.log('in total', total);
+    }
+    if (equationFromInput.operator === '*'){
+        total = numOne * numTwo;
+        console.log('in total', total);
+    }
+    if (equationFromInput.operator === '/'){
+        total = numOne / numTwo;
+        console.log('in total', total);
+    }
     equationFromInput.answer = total;
     console.log(equationFromInput)
     objectArray.push(equationFromInput);

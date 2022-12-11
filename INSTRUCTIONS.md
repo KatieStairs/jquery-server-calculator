@@ -14,15 +14,15 @@ You are going to be building a server-side calculator. The logic for the calcula
 
 3. ✅ There should also be a 'C' button that will clear the user input fields.
 
-4. Build out the server-side logic to compute the numbers as appropriate. The server should be able to handle Addition, Subtraction, Multiplication, and Division. 
+4. ✅ Build out the server-side logic to compute the numbers as appropriate. The server should be able to handle Addition, Subtraction, Multiplication, and Division. 
 
-5. Once the calculation is complete, send back the OK. 
+5. ✅ Once the calculation is complete, send back the OK. 
 
-6. You should do a GET request after the POST to get the actual calculation.
+6. ✅ You should do a GET request after the POST to get the actual calculation.
 
 ### History
 
-7. Keep a historical record of all math operations and solutions on the server. Display a list of all previous calculations on the page when it loads using a GET request. Update the list when a new calculation is made.
+7. ✅ Keep a historical record of all math operations and solutions on the server. Display a list of all previous calculations on the page when it loads using a GET request. Update the list when a new calculation is made.
 
 > NOTE: History should exist even after refreshing the page. It's expected that the history will go away after restarting the server. We'll talk about long term data storage next week.
 
